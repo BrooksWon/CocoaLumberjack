@@ -1,0 +1,22 @@
+//
+//  BTLog-prefix.pch
+//  BTLog
+//
+//  Created by Brooks on 2018/3/24.
+//  Copyright © 2018年 Brooks. All rights reserved.
+//
+
+#ifndef BTLog_prefix_pch
+#define BTLog_prefix_pch
+
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+#ifdef DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelDebug;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelError;
+#endif
+
+
+
+#endif /* BTLog_prefix_pch */

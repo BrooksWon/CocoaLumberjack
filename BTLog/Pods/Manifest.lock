@@ -1,0 +1,19 @@
+PODS:
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+
+DEPENDENCIES:
+  - CocoaLumberjack (~> 3.0.0)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+
+PODFILE CHECKSUM: e99815c76a7a716ef94e90a78a5801deba6b734d
+
+COCOAPODS: 1.4.0.rc.1
