@@ -9,6 +9,7 @@
 #ifndef BTLog_prefix_pch
 #define BTLog_prefix_pch
 
+#define LOG_LEVEL_DEF ddLogLevel // 要先设置宏定义
 #import <CocoaLumberjack/CocoaLumberjack.h>
 
 #ifdef DEBUG
